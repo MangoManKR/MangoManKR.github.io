@@ -1,0 +1,284 @@
+@font-face {
+    font-family: 'Youth';
+    src: url(./font/Youth.woff);
+}
+*{
+    font-family: 'Youth';
+}
+
+/* Mobile Devices */
+@media screen and (max-width: 480px) {
+    header{
+        background: rgb(17, 156, 43);
+        height: 24px;
+        width: 50%;
+        margin: 10px auto;	
+        font-size: 18px;
+        color:aliceblue;
+        text-align: center;
+    }
+    body{
+        background-color: rgb(201, 245, 200);
+    }
+    body > * > * { 
+        margin: 0 auto;		
+        border: 1px solid black;
+        padding: 5px;
+        background: #94db99;
+        position: relative;
+        min-height: 100%;
+    }
+    footer{
+        background: rgb(17, 156, 43);
+        font-size: 16px;
+        height: 20px;
+        width: 100%;
+        color:aliceblue;
+        position: absolute;
+        bottom: 0px;
+
+    }
+}
+/* end Mobile Devices */
+
+/* iPads, Tablets */
+@media screen and (min-width:481px) and (max-width: 768px) {
+    header{
+        background: rgb(17, 156, 43);
+        height: auto;
+        width: 50%;
+        margin: 10px auto;	
+        font-size: 28px;
+        color:aliceblue;
+        text-align: center;
+    }
+    body{
+        background-color: rgb(201, 245, 200);
+        padding-bottom: 20px;
+        min-height: 100%;
+        height: auto;
+    }
+    body > * > *{ 
+        margin: 0 auto;		
+        border: 1px solid black;
+        padding: 5px;
+        background: #94db99;
+        position: relative;
+        min-height: 100%;
+    }
+    footer{
+        background: rgb(17, 156, 43);
+        font-size: 16px;
+        height: 20px;
+        width: 100%;
+        color:aliceblue;
+        position: relative;
+        bottom: 0px;
+        transform: translateY(0%);
+    }
+}
+/* end iPads, Tablets */
+
+
+/* Common Settings on Mobile Devices */
+@media screen and (max-width: 768px) {
+    .nav_list {
+        display: none;
+    }
+    header{
+        background: rgb(17, 156, 43);
+        height: auto;
+        width: 50%;
+        margin: 10px auto;	
+        font-size: 28px;
+        color:aliceblue;
+        text-align: center;
+    }
+    body{
+        background-color: rgb(201, 245, 200);
+        padding-bottom: 20px;
+        min-height: 100%;
+        height: auto;
+    }
+    body > * > *{ 
+        margin: 0 auto;		
+        border: 1px solid black;
+        padding: 5px;
+        background: #94db99;
+        position: relative;
+        min-height: 100%;
+    }
+    footer{
+        background: rgb(17, 156, 43);
+        font-size: 16px;
+        height: 20px;
+        width: 100%;
+        color:aliceblue;
+        position: relative;
+        bottom: 0px;
+        transform: translateY(0%);
+    }
+}
+/* end Common Settings on Mobile Devices */
+
+
+/***********************************************************************/
+/***********************************************************************/
+/***********************************************************************/
+
+
+/* Common Settings on Computers */
+@media screen and (min-width: 769px) {
+	/* TEMPORARY, Going to Remove */
+    header{
+        background: rgb(17, 156, 43);
+        height: 40px;
+        width: 50%;
+        margin: 10px auto;	
+        font-size: 28px;
+        color:aliceblue;
+        text-align: center;
+    }
+    body{
+        background-color: rgb(201, 245, 200);
+        padding-bottom: 20px;
+        min-height: 100%;
+        height: auto;
+    }
+    body > * > *{ 
+        margin: 0 auto;		
+        border: 1px solid black;
+        padding: 5px;
+        background: #94db99;
+        position: relative;
+        min-height: 100%;
+    }
+    footer{
+        background: rgb(17, 156, 43);
+        font-size: 16px;
+        height: 20px;
+        width: 100%;
+        color:aliceblue;
+        position: relative;
+        bottom: 0px;
+        transform: translateY(0%);
+    }
+    /* END TEMPORARY ####################### */
+}
+/* end Common Settings on Computers */
+
+/* Small screens */
+@media screen and (min-width:769px) and (max-width: 1024px) {
+    header{
+        background: rgb(17, 156, 43);
+        height: 40px;
+        width: 50%;
+        margin: 10px auto;	
+        font-size: 28px;
+        color:aliceblue;
+        text-align: center;
+    }
+    body{
+        background-color: rgb(201, 245, 200);
+        padding-bottom: 20px;
+        min-height: 100%;
+        height: auto;
+    }
+    body > * > *{ 
+        margin: 0 auto;		
+        border: 1px solid black;
+        padding: 5px;
+        background: #94db99;
+        position: relative;
+        min-height: 100%;
+    }
+    footer{
+        background: rgb(17, 156, 43);
+        font-size: 16px;
+        height: 20px;
+        width: 100%;
+        color:aliceblue;
+        position: relative;
+        bottom: 0px;
+        transform: translateY(0%);
+    }
+}
+/* end Small screens */
+
+
+/* Desktop screens */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    header{
+        background: rgb(17, 156, 43);
+        height: 40px;
+        width: 50%;
+        margin: 10px auto;	
+        font-size: 28px;
+        color:aliceblue;
+        text-align: center;
+    }
+    body{
+        background-color: rgb(201, 245, 200);
+        padding-bottom: 20px;
+        min-height: 100%;
+        height: auto;
+    }
+    body > * > *{ 
+        margin: 0 auto;		
+        border: 1px solid black;
+        padding: 5px;
+        background: #94db99;
+        position: relative;
+        min-height: 100%;
+    }
+    footer{
+        background: rgb(17, 156, 43);
+        font-size: 16px;
+        height: 20px;
+        width: 100%;
+        color:aliceblue;
+        position: relative;
+        bottom: 0px;
+        transform: translateY(0%);
+    }
+}
+/* end Desktop screens */
+
+
+/* Wide screens */
+@media screen and (min-width:1201px) {
+    header{
+        background: rgb(17, 156, 43);
+        height: 40px;
+        width: 50%;
+        margin: 10px auto;	
+        font-size: 28px;
+        color:aliceblue;
+        text-align: center;
+    }
+    body{
+        background-color: rgb(201, 245, 200);
+        padding-bottom: 20px;
+        min-height: 100%;
+        height: auto;
+    }
+    body > * > *{ 
+        margin: 0 auto;		
+        border: 1px solid black;
+        padding: 5px;
+        background: #94db99;
+        position: relative;
+        min-height: 100%;
+    }
+    footer{
+        background: rgb(17, 156, 43);
+        font-size: 16px;
+        height: 20px;
+        width: 100%;
+        color:aliceblue;
+        position: relative;
+        bottom: 0px;
+        transform: translateY(0%);
+    }
+}
+/* end Wide screens */
