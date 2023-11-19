@@ -3,7 +3,7 @@ HYU CSE ITE3062 인간컴퓨터상호작용 Project 2
 # TL-DR-for-Wiki-Hot-Topic
 Summerize hot news on Korean Wiki sites "나무위키" which serves real-time hot topics.(https://mangomankr.github.io/)
 
-## generate_html
+## generate_html.py
 You can generate your own summerized website.
 ### Requirement
 * Google Chrome
