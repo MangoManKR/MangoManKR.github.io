@@ -1,7 +1,7 @@
-HYU CSE ITE3062 인간컴퓨터상호작용 Project 2
+HYU CSE ITE3062 인간컴퓨터상호작용 Project 2(~23.06.08)
 
 # TL-DR-for-Wiki-Hot-Topic
-Using GPT API, summerize hot news on Korean Wiki sites "나무위키" which serves real-time hot topics.(https://mangomankr.github.io/)
+Using GPT API, summerize hot news on Korean Wiki sites "나무위키" which serves real-time hot topics.(https://mangomankr.github.io/TL-DR-for-Wiki-Hot-Topic/)
 
 ## generate_html.py
 You can generate your own summerized website.
